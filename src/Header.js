@@ -12,9 +12,7 @@ class Header extends Component {
           <div class="Header__header__container">
             <div class="Header__header__container__block--right">
               <ul class="Header__header__links">
-              <li class="Header__header__links__link">
-                <button class="GoNation__Icon"></button>
-              </li>
+           
                 <li class="Header__header__links__link">
                   <button class="Header__header__links__link__link Header__header__border Header__header__color--mode-page-reverse ">LOGIN</button>
                 </li>
