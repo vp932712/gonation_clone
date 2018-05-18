@@ -21,7 +21,7 @@
   }
 
   .SiteFooter__Nav__SocialMobileContainer {
-      width: 100%;
+      
       text-align: center;
       margin-top: 20px;
       display: flex;
@@ -71,7 +71,7 @@
 
 
 .SiteFooter__Nav__SocialMobileContainer__MobileLinks {
-    width: 100%;
+
     text-align: center;
     margin-top: 20px;
     display: flex;
