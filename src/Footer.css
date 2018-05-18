@@ -5,7 +5,7 @@
     padding: 20px;
   }
 
- .SiteFooter__Nav__Links {
+ .Company__Links {
       text-align: center;
       display: -ms-flexbox;
       display: flex;
@@ -14,14 +14,13 @@
   }
 
 
-  .SiteFooter__Nav__Links__Link {
+  .CompanyLinks__A__Tags {
       text-align: left;
       color: #999;
       padding-right: 60px;
   }
 
-  .SiteFooter__Nav__SocialMobileContainer {
-      
+  .Icons__Div {
       text-align: center;
       margin-top: 20px;
       display: flex;
@@ -29,27 +28,11 @@
       align-items: center;
   }
 
-  .SiteFooter__Nav__SocialMobileContainer__MobileLinks__Link {
-      display: inline-block;
-      text-decoration: none;
-      font-size: 0;
-      margin-right: 60px;
-  }
-
-  .SiteFooter__Nav__SocialMobileContainer__Icons {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.SiteFooter__Nav__SocialMobileContainer__Icons__Icon {
+.Socialmedia__Icons {
     color: #999;
     padding-right: 60px;
 }
-.SiteFooter__Nav__SocialMobileContainer__MobileLinks__Link--apple {
+.Apple__Icon {
     width: 92px;
     height: 28px;
     background-image: url(https://www.delivery.com/images/applestore.png);
@@ -59,7 +42,7 @@
     margin-right: 60px;
 }
 
-.SiteFooter__Nav__SocialMobileContainer__MobileLinks__Link--google {
+.Google__Icon {
     width: 79px;
     height: 28px;
     background-image: url(https://www.delivery.com/images/googleplay.png);
@@ -67,14 +50,4 @@
     display: inline-block;
     text-decoration: none;
     font-size: 0;
-}
-
-
-.SiteFooter__Nav__SocialMobileContainer__MobileLinks {
-
-    text-align: center;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

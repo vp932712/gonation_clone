@@ -7,26 +7,26 @@ class Footer extends Component {
 render() {
   return (
     <div class="SiteFooter">
-    <div class="SiteFooter__Nav__Links">
-      <a class = "SiteFooter__Nav__Links__Link">About Us</a>
-      <a class = "SiteFooter__Nav__Links__Link">Contact</a>
-      <a class = "SiteFooter__Nav__Links__Link">Careers </a>
-      <a class = "SiteFooter__Nav__Links__Link">FAQ</a>
+
+    <div class="Company__Links">
+      <a class = "CompanyLinks__A__Tags">About Us</a>
+      <a class = "CompanyLinks__A__Tags">Contact</a>
+      <a class = "CompanyLinks__A__Tags">Careers </a>
+      <a class = "CompanyLinks__A__Tags">FAQ</a>
     </div>
-    <div class="SiteFooter__Nav__SocialMobileContainer">
-      <div class="SiteFooter__Nav__SocialMobileContainer"  >
-      <a class="SiteFooter__Nav__SocialMobileContainer__Icons__Icon"> F</a>
-      <a class="SiteFooter__Nav__SocialMobileContainer__Icons__Icon">G </a>
-      <a class="SiteFooter__Nav__SocialMobileContainer__Icons__Icon">L </a>
-      <a class="SiteFooter__Nav__SocialMobileContainer__Icons__Icon">M </a>
+    <div class="Icons__Div">
+      <div class="Icons__Div"  >
+      <a class="Socialmedia__Icons"> F</a>
+      <a class="Socialmedia__Icons">G </a>
+      <a class="Socialmedia__Icons">L </a>
+      <a class="Socialmedia__Icons">M </a>
       </div>
-      <div class="SiteFooter__Nav__SocialMobileContainer" >
-      <a class="SiteFooter__Nav__SocialMobileContainer__MobileLinks__Link--apple"></a>
-      <a class="SiteFooter__Nav__SocialMobileContainer__MobileLinks__Link--google">Android</a>
+      <div class="Icons__Div" >
+      <a class="Apple__Icon"></a>
+      <a class="Google__Icon"></a>
       </div>
 
-
-    </div>
+</div>
 
 
     </div>
