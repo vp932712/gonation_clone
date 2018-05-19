@@ -193,3 +193,56 @@
     top: 40px;
 
 }
+
+
+.WhyOrderPanel__Reasons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.WhyOrderPanel__Reasons__Reason__Discover {
+    padding-left: 0;
+    flex: 1 1 auto;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 230px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.WhyOrderPanel__Reasons__Reason__Discover__ImageWrap {
+    height: 178px;
+    width: 130px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Discover__Image {
+  position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 130px;
+    transition: top 1.25s cubic-bezier(.175,.885,.32,1.275);
+    transform: translateZ(0);
+    top: 0;
+    z-index: 1;
+}
+
+.WhyOrderPanel__Reasons__Reason__Headline {
+
+    font-weight: 600;
+    font-size: 1.0667rem;
+    line-height: 1.4667rem;
+    margin-bottom: 10px;
+    color: #20bed6;
+    margin: 0;
+    padding: 0;
+}
+
+.P {
+    margin: 0 0 5px;
+    color: #666;
+}
