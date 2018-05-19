@@ -1,0 +1,36 @@
+.SiteSearchPanel {
+    background-position: 50%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10vh;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(https://gonation.com/images/poster.jpg);
+}
+
+
+.SiteSearchPanel__Background {
+    background: linear-gradient(180deg,hsla(0,0%,100%,.7) 2%,hsla(0,0%,100%,0) 30%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* https://gonation.com/videos/discover-now-2.mp4 */
