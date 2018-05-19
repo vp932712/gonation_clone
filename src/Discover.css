@@ -22,15 +22,110 @@
     width: 100%;
 }
 
+.SiteSearchPanel__SearchBlock {
+    padding: 0 20px;
+}
+
+.SiteSearchPanel__SearchBlock__Inner {
+    box-sizing: border-box;
+    width: 565px;
+    position: relative;
+    padding: 10px;
+}
+
+.SiteSearchPanel__SearchBlock__OpacityCover {
+    background: #2e40431c;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.SiteSearchPanel__SearchBlock__OpacityContainer {
+    position: relative;
+    padding-bottom: 58px;
+}
+.SiteSearchPanel__SearchBlock__Inner__Logo {
+    margin: 0 auto 10px;
+    padding-bottom: 5px;
+    font-size: 0;
+    text-align: center;
+    display: block;
+    transform: translateZ(0);
+}
 
 
+.SiteSearchPanel__SearchBlock__Inner__Title {
+    color: #20bed6;
+    font-size: 1.7333rem;
+    line-height: 2.2667rem;
+    margin: 20px 0;
+    text-align: center;
+    display: block;
+    animation: fadeIn 1s;
+    font-weight: lighter;
+}
 
 
+.SiteSearchPanel__SearchBlock__Inner__Autocomplete {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 474px;
+    position: relative;
+    margin: 0 auto;
+}
 
+.AddressAutocomplete {
+    position: relative;
+    color: #333;
+    width: 100%;
+    flex: 1 1 0;
+}
 
+.AutocompleteInput {
+    position: relative;
+    width: 100%;
+}
 
+.AutocompleteInput__input {
+    height: 45px;
+    padding-left: 30px;
+    border: 1px solid #20bed6;
+    width: 100%;
+    line-height: normal;
+    padding: 6px 8px;
+    box-shadow: none;
+    background: #2e40431c
+}
 
-
-
+.Button {
+  background-color: #20bed6;
+  height: 60px;
+  flex: 0 0 120px;
+    margin: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 100%;
+    padding: 9px 20px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.0667rem;
+    line-height: 1.4667rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color .1s linear 0s;
+    outline: 0;
+}
 
 /* https://gonation.com/videos/discover-now-2.mp4 */
