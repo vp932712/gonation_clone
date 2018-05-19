@@ -1,0 +1,195 @@
+.WhyOrderPanel {
+    text-align: center;
+    padding: 60px 0 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+.Light {
+  font-weight: 300;
+}
+
+.HomepageDivider {
+    width: 90px;
+    height: 4px;
+    background: #20bed6;
+    margin: 20px auto;
+}
+
+.WhoWeArePanel {
+  padding-bottom: 40px;
+  position: relative;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  max-width: 1020px;
+}
+
+.Bubbles__First {
+  display: block;
+  top: 15%;
+  left: 25%;
+  position: absolute;
+}
+
+.Bubbles__Second {
+    top: 15%;
+    bottom: auto;
+    right: 25%;
+    transform: rotateY(180deg);
+    position: absolute;
+}
+
+.First__Bubble {
+  transition-delay: 1.3s;
+  opacity: 1;
+  transition-property: opacity,width,height;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+  transform: translateZ(0);
+  position: absolute;
+  border-radius: 20px;
+  width: 17px;
+  height: 17px;
+  background: rgba(31,93,169,.3);
+  left: 0;
+  top: 13px;
+}
+
+
+.Second__Bubble {
+  transition-delay: 1.3s;
+  opacity: 1;
+  transition-property: opacity,width,height;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+  transform: translateZ(0);
+  position: absolute;
+  border-radius: 20px;
+  width: 7px;
+  height: 7px;
+  background: rgba(31,93,169,.2);
+  left: 21px;
+  top: 51px;
+}
+
+.Third__Bubble {
+  transition-delay: 1.3s;
+  opacity: 1;
+  transition-property: opacity,width,height;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+  transform: translateZ(0);
+  position: absolute;
+  border-radius: 20px;
+  width: 12px;
+    height: 12px;
+    background: rgba(31,93,169,.2);
+    left: 42px;
+    top: 28px;
+}
+
+.Fourth__Bubble {
+  transition-delay: 1.3s;
+  opacity: 1;
+  transition-property: opacity,width,height;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+  transform: translateZ(0);
+  position: absolute;
+  border-radius: 20px;
+  width: 13px;
+    height: 13px;
+    background: rgba(31,93,169,.4);
+    top: 0;
+    left: 66px;
+
+}
+
+.Fifth__Bubble {
+  transition-delay: 1.3s;
+  opacity: 1;
+  transition-property: opacity,width,height;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+  transform: translateZ(0);
+  position: absolute;
+  border-radius: 20px;
+  width: 19px;
+    height: 19px;
+    background: rgba(31,93,169,.3);
+    left: 73px;
+    top: 30px;
+
+}
+
+.Sixth__Bubble {
+  transition-delay: 1.3s;
+  opacity: 1;
+  transition-property: opacity,width,height;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+  transform: translateZ(0);
+  position: absolute;
+  border-radius: 20px;
+  width: 10px;
+    height: 10px;
+    background: rgba(31,93,169,.2);
+    left: 97px;
+    top: 20px;
+
+}
+
+.Seventh__Bubble {
+  transition-delay: 1.3s;
+  opacity: 1;
+  transition-property: opacity,width,height;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+  transform: translateZ(0);
+  position: absolute;
+  border-radius: 20px;
+  width: 10px;
+    height: 10px;
+    background: rgba(31,93,169,.1);
+    left: 122px;
+    top: 40px;
+
+}
+
+.Eighth__Bubble {
+  transition-delay: 1.3s;
+  opacity: 1;
+  transition-property: opacity,width,height;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+  transform: translateZ(0);
+  position: absolute;
+  border-radius: 20px;
+  width: 12px;
+  height: 12px;
+  background: rgba(31,93,169,.4);
+  left: 150px;
+  top: 23px;
+
+
+}
+
+.Nineth__Bubble {
+  transition-delay: 1.3s;
+  opacity: 1;
+  transition-property: opacity,width,height;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+  transform: translateZ(0);
+  position: absolute;
+  border-radius: 20px;
+  width: 4px;
+    height: 4px;
+    background: rgba(31,93,169,.4);
+    left: 177px;
+    top: 40px;
+
+}
