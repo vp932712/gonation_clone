@@ -23,7 +23,7 @@ render() {
                 </div>
                 <button type="submit" className="Button">
                   <div>
-                    <span>Discover Now !! </span>
+                    <span>Discover Now</span>
                   </div>
                 </button>
               </form>
