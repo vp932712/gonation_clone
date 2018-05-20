@@ -8,9 +8,9 @@ class WorkWithUs extends Component {
 render() {
   return (
     <div>
-      <div class="WhyOrderPanel">
-        <h2 class="Light">Work with us </h2>
-        <div class="HomepageDivider"> </div>
+      <div className="WhyOrderPanel">
+        <h2 className="Light">Work with us </h2>
+        <div className="HomepageDivider"> </div>
         <WorkWithUsReasons />
       </div>
     </div>
