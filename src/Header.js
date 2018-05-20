@@ -7,17 +7,17 @@ class Header extends Component {
   render() {
     return (
       <div>
-      <div class="Header">
-        <div class="Header__header--mode-page-reverse">
-          <div class="Header__header__container">
-            <div class="Header__header__container__block--right">
-              <ul class="Header__header__links">
+      <div className="Header">
+        <div className="Header__header--mode-page-reverse">
+          <div className="Header__header__container">
+            <div className="Header__header__container__block--right">
+              <ul className="Header__header__links">
 
-                <li class="Header__header__links__link">
-                  <button class="Header__header__links__link__link Header__header__border Header__header__color--mode-page-reverse ">LOGIN</button>
+                <li className="Header__header__links__link">
+                  <button className="Header__header__links__link__link Header__header__border Header__header__color--mode-page-reverse ">LOGIN</button>
                 </li>
-                <li class="Header__header__links__link">
-                  <button class="Header__header__links__link__link Header__header__border Header__header__color--mode-page-reverse ">SIGN UP</button>
+                <li className="Header__header__links__link">
+                  <button className="Header__header__links__link__link Header__header__border Header__header__color--mode-page-reverse ">SIGN UP</button>
                 </li>
               </ul>
             </div>
@@ -33,4 +33,4 @@ class Header extends Component {
 export default Header;
 
 
- // come back for the logo or create a logo for the company 
+ // come back for the logo or create a logo for the company
