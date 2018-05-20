@@ -9,8 +9,9 @@ render() {
   return (
     <div>
     <div class="SiteSearchPanel">
-
-
+    <video class="Video" loop autoPlay>
+      <source src="https://gonation.com/videos/discover-now-2.mp4" type="video/mp4" />
+    </video>
       <DiscoverBackground />
        <DiscoverSearchBox />
 
@@ -24,9 +25,3 @@ render() {
 
 
 export default Discover
-
-
-
-// <video loop autoPlay>
-//   <source src="https://gonation.com/videos/discover-now-2.mp4" type="video/mp4" />
-// </video>
