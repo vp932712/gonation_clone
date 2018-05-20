@@ -51,3 +51,9 @@
     text-decoration: none;
     font-size: 0;
 }
+
+.Site__Note__To__Viewers {
+    display: inline;
+    color: #ccc;
+    font-size: .7333rem;
+}

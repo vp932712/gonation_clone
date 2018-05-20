@@ -25,7 +25,9 @@ render() {
           <a className="Apple__Icon"></a>
           <a className="Google__Icon"></a>
          </div>
+
       </div>
+      <p className="Site__Note__To__Viewers">Made with ❤️ by Vic Patel for Chaz</p>
     </div>
     )
   }
