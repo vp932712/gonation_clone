@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "./WhoWeAre.css"
+import "../../css/WhoWeAre.css"
 import WhoWeAreReasons from "./WhoWeAreReasons.js"
 
 

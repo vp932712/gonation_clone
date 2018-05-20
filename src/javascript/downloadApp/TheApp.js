@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import "./DownloadTheApp.css"
-import first from'./images/1.png';
-import second from'./images/2.png';
-import third from'./images/3.png';
-import apple from './images/apple.png'
-import android from './images/android.png'
+import "../../css/WhoWeAre.css"
+import first from'../../images/1.png';
+import second from'../../images/2.png';
+import third from'../../images/3.png';
+import apple from '../../images/apple.png'
+import android from '../../images/android.png'
 
 class TheApp extends Component {
 

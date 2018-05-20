@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "./Discover.css"
+import "../../css/Discover.css"
 
 
 class DiscoverSearchBox extends Component {

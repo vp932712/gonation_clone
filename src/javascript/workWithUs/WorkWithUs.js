@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import "./WorkWithUs.css"
+import "../../css/WorkWithUs.css"
 import WorkWithUsReasons from "./WorkWithUsReasons.js"
-import "./WhoWeAre.css"
+import "../../css/WhoWeAre.css"
 
 class WorkWithUs extends Component {
 

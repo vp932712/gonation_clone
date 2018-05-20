@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import "./DownloadTheApp.css"
-import "./WhoWeAre.css"
+import "../../css/DownloadTheApp.css"
+import "../../css/WhoWeAre.css"
 import TheApp from "./TheApp.js"
 
 

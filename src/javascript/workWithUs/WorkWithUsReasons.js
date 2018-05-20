@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import "./WorkWithUs.css"
-import "./WhoWeAre.css"
+import "../../css/WorkWithUs.css"
+import "../../css/WhoWeAre.css"
 
 class WorkWithUsReasons extends Component {
 
