@@ -8,7 +8,7 @@ render() {
   return (
     <div>
 
-      <div class="SiteSearchPanel__Background">
+      <div className="SiteSearchPanel__Background">
       </div>
 
     </div>
