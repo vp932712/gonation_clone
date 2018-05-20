@@ -1,0 +1,103 @@
+.GetToKnowUsPanel__Blocks {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto 0;
+  max-width: 1020px;
+}
+
+.dcom__container {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  max-width: 1020px;
+  width: 100%;
+}
+
+.PanelBlock__First {
+  margin-bottom: 0;
+  margin-top: 0;
+  background: #fff;
+  margin: 20px 0;
+  height: 230px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  max-width: 940px;
+}
+
+.PanelBlock__ImageWrap__First {
+  flex: 0 0 43%;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.PanelBlock__ImageWrap__Image__First {
+  height: 494px;
+  min-width: 494px;
+  background-position: 100%;
+  transform: translateY(-100px);
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 200%;
+  background-repeat: no-repeat;
+  background-size: auto 400px;
+  background-position-x: calc(50% + 235px);
+  border-radius: 297px;
+  background-image: url(https://gonation.com/006f20180e1eddd53da50b927f480fec.jpg);
+}
+
+.PanelBlock__Content__First {
+  padding-left: calc(7% + 50px);
+  padding: 20px;
+  flex: 1 1 auto;
+}
+
+.PanelBlock__Content__Inner {
+  margin: 0;
+  max-width: 240px;
+}
+
+.PanelBlock__Content__Headline {
+  font-weight: 600;
+  font-size: 1.0667rem;
+  line-height: 1.4667rem;
+  margin-bottom: 10px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.P__P {
+  margin: 0 0 5px;
+  color: #666;
+}
+
+.Button__Button {
+  background-color: #fff;
+  color: #20bed6;
+  border: 1px solid #20bed6;
+  margin: 20px 0 0;
+  font-size: .9333rem;
+  padding: 9px 20px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 3px;
+  cursor: pointer;
+  line-height: 1.4667rem;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color .1s linear 0s;
+  outline: 0;
+  height: 40px;
+}
