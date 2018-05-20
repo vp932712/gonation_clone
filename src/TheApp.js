@@ -8,8 +8,8 @@ class TheApp extends Component {
 render() {
   return (
     <div class="MobileAppPanel">
-    <div class="">
-      <div>
+    <div class="MobileAppPanel__Container">
+      <div class="MobileAppPanel__Layers">
         <img />
         <img />
         <img />
