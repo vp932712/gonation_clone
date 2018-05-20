@@ -9,9 +9,9 @@ class DownloadTheApp extends Component {
 render() {
   return (
     <div>
-    <div class="WhyOrderPanel">
-      <h2 class="Light">Every city is alive</h2>
-      <div class="HomepageDivider"> </div>
+    <div className="WhyOrderPanel">
+      <h2 className="Light">Every city is alive</h2>
+      <div className="HomepageDivider"> </div>
       <TheApp />
     </div>
 

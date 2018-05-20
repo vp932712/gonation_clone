@@ -10,22 +10,22 @@ class TheApp extends Component {
 
 render() {
   return (
-    <div class="MobileAppPanel">
-    <div class="MobileAppPanel__Container">
-      <div class="MobileAppPanel__Layers">
-        <img class="MobileAppPanel__Layers__Layer" src={first} />
-        <img class="MobileAppPanel__Layers__Layer_2" src={second}/>
-        <img class="MobileAppPanel__Layers__Layer_3" src={third}/>
+    <div className="MobileAppPanel">
+    <div className="MobileAppPanel__Container">
+      <div className="MobileAppPanel__Layers">
+        <img className="MobileAppPanel__Layers__Layer" src={first} />
+        <img className="MobileAppPanel__Layers__Layer_2" src={second}/>
+        <img className="MobileAppPanel__Layers__Layer_3" src={third}/>
       </div>
-      <div class="MobileAppForm">
-        <h1 class="MobileAppForm__Title">Tap into the pulse. </h1>
-        <p class="MobileAppForm__Tagline">Always know what’s happening at your favorite places, or discover something amazing in the moment. </p>
-        <div class="MobileAppForm__Buttons">
-          <a class="MobileAppForm__Buttons__Button">
-            <img class="MobileAppForm__Buttons__Button__Image" src={apple} />
+      <div className="MobileAppForm">
+        <h1 className="MobileAppForm__Title">Tap into the pulse. </h1>
+        <p className="MobileAppForm__Tagline">Always know what’s happening at your favorite places, or discover something amazing in the moment. </p>
+        <div className="MobileAppForm__Buttons">
+          <a className="MobileAppForm__Buttons__Button">
+            <img className="MobileAppForm__Buttons__Button__Image" src={apple} />
           </a>
-          <a class="MobileAppForm__Buttons__Button">
-            <img class="MobileAppForm__Buttons__Button__Image" src={android} />
+          <a className="MobileAppForm__Buttons__Button">
+            <img className="MobileAppForm__Buttons__Button__Image" src={android} />
           </a>
         </div>
       </div>
