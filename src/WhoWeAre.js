@@ -8,9 +8,9 @@ class WhoWeAre extends Component {
 render() {
   return (
     <div>
-      <div class="WhyOrderPanel">
-        <h2 class="Light">What is GoNation </h2>
-        <div class="HomepageDivider"> </div>
+      <div className="WhyOrderPanel">
+        <h2 className="Light">What is GoNation </h2>
+        <div className="HomepageDivider"> </div>
         <WhoWeAreReasons />
       </div>
     </div>
