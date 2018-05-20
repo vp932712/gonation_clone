@@ -18,7 +18,7 @@ render() {
         <img className="MobileAppPanel__Layers__Layer_3" src={third}/>
       </div>
       <div className="MobileAppForm">
-        <h1 className="MobileAppForm__Title">Tap into the pulse. </h1>
+        <h1 className="MobileAppForm__Title">Tap into the pulse </h1>
         <p className="MobileAppForm__Tagline">Always know what’s happening at your favorite places, or discover something amazing in the moment. </p>
         <div className="MobileAppForm__Buttons">
           <a className="MobileAppForm__Buttons__Button">
