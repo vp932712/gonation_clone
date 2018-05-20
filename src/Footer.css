@@ -35,7 +35,7 @@
 .Apple__Icon {
     width: 92px;
     height: 28px;
-    background-image: url(https://www.delivery.com/images/applestore.png);
+    background-image: url("./images/appleSmall.png");
     display: inline-block;
     text-decoration: none;
     font-size: 0;
@@ -45,7 +45,7 @@
 .Google__Icon {
     width: 79px;
     height: 28px;
-    background-image: url(https://www.delivery.com/images/googleplay.png);
+    background-image: url("./images/androidSmall.png");
     margin-right: 0;
     display: inline-block;
     text-decoration: none;

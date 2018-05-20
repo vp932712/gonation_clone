@@ -54,17 +54,16 @@
 .PanelBlock__Second {
   height: 230px;
   background: #fff;
-    margin: 20px 0;
-    position: relative;
-overflow: hidden;
-display: flex;
-flex-wrap: nowrap;
-justify-content: center;
-align-items: center;
-    color: #333;
-    max-width: 940px;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  max-width: 940px;
 }
-
 
 .PanelBlock__ImageWrap__First {
   flex: 0 0 43%;
@@ -76,11 +75,9 @@ align-items: center;
 .PanelBlock__ImageWrap__Second {
   order: 2;
   flex: 0 0 55%;
-   height: 100%;
-   position: relative;
+  height: 100%;
+  position: relative;
 }
-
-
 
 .PanelBlock__ImageWrap__Image__First {
   height: 494px;
@@ -101,37 +98,37 @@ align-items: center;
 .PanelBlock__ImageWrap__Image__Second {
   background-position-x: -50px;
   left: 10px;
-    right: auto;
-    background-position: 0;
-    background-size: auto 230px;
-    height: 320px;
-    border-radius: 160px;
-    transform: translateY(-45px);
-    min-width: 494px;
-    position: absolute;
-    top: 0;
-    width: 200%;
-    background-repeat: no-repeat;
-    transition: background-size .5s ease-in;
-    background-image: url(https://gonation.com/507cc08febbee24677e6305a35363cb2.jpg);
+  right: auto;
+  background-position: 0;
+  background-size: auto 230px;
+  height: 320px;
+  border-radius: 160px;
+  transform: translateY(-45px);
+  min-width: 494px;
+  position: absolute;
+  top: 0;
+  width: 200%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in;
+  background-image: url(https://gonation.com/507cc08febbee24677e6305a35363cb2.jpg);
 }
 
 .PanelBlock__ImageWrap__Image__Third {
   background-position-x: -50px;
   left: 10px;
-    right: auto;
-    background-position: 0;
-    background-size: auto 230px;
-    height: 320px;
-    border-radius: 160px;
-    transform: translateY(-45px);
-    min-width: 494px;
-    position: absolute;
-    top: 0;
-    width: 200%;
-    background-repeat: no-repeat;
-    transition: background-size .5s ease-in;
-    background-image: url(https://gonation.com/1b0e49c01c858b85115c9ca895b2cbe1.jpg);
+  right: auto;
+  background-position: 0;
+  background-size: auto 230px;
+  height: 320px;
+  border-radius: 160px;
+  transform: translateY(-45px);
+  min-width: 494px;
+  position: absolute;
+  top: 0;
+  width: 200%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in;
+  background-image: url(https://gonation.com/1b0e49c01c858b85115c9ca895b2cbe1.jpg);
 }
 
 .PanelBlock__Content__First {
@@ -141,11 +138,11 @@ align-items: center;
 }
 
 .PanelBlock__Content__Second {
-     padding: 20px;
-     flex: 1 1 auto;
-      order: 1;
-    padding-left: 40px;
-    padding-right: 10px;
+  padding: 20px;
+  flex: 1 1 auto;
+  order: 1;
+  padding-left: 40px;
+  padding-right: 10px;
 }
 
 .PanelBlock__Content__Inner {

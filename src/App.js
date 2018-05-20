@@ -5,6 +5,7 @@ import Header from "./Header.js"
 import WhoWeAre from "./WhoWeAre.js"
 import Discover from "./Discover.js"
 import WorkWithUs from "./WorkWithUs.js"
+import DownloadTheApp from "./DownloadTheApp.js"
 
 class App extends Component {
   render() {
