@@ -1,33 +1,122 @@
 .MobileAppPanel {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background: url("./images/CityBackground.png") repeat-x bottom #fff;
-    background-size: auto 190px;
-    text-align: center;
-    overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: url("./images/CityBackground.png") repeat-x bottom #fff;
+  background-size: auto 190px;
+  text-align: center;
+  overflow: hidden;
 }
-
 
 .MobileAppPanel__Container {
-    flex-wrap: nowrap;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    box-sizing: border-box;
-    max-width: 1020px;
+  flex-wrap: nowrap;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  max-width: 1020px;
 }
 
-
 .MobileAppPanel__Layers {
-    order: 1;
-    margin-top: 0;
-    margin-right: 40px;
-    flex: 1 1 auto;
-    height: 360px;
-    position: relative;
-    max-width: 100%;
-    margin: -20px auto 0;
-    transform: translateZ(0);
+  order: 1;
+  margin-top: 0;
+  margin-right: 40px;
+  flex: 1 1 auto;
+  height: 360px;
+  position: relative;
+  max-width: 100%;
+  margin: -20px auto 0;
+  transform: translateZ(0);
+}
+
+.MobileAppForm {
+  padding-top: 0;
+  margin-right: 0;
+  text-align: right;
+  justify-content: center;
+  padding: 0;
+  min-height: 300px;
+  width: 300px;
+  max-width: 100%;
+  order: 2;
+  height: 360px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.MobileAppPanel__Layers__Layer {
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  min-width: 285px;
+  border: 10px solid transparent;
+}
+
+.MobileAppPanel__Layers__Layer_2 {
+  top: 30px;
+  z-index: 2;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  min-width: 285px;
+  border: 10px solid transparent;
+}
+
+.MobileAppPanel__Layers__Layer_3 {
+  top: 69px;
+  bottom: auto;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  min-width: 285px;
+  border: 10px solid transparent;
+}
+
+.MobileAppForm__Title {
+  margin-right: 0;
+  margin-bottom: 15px;
+  margin-left: 0;
+  text-align: left;
+  margin: 0 auto 20px;
+  max-width: 300px;
+  font-size: 1.4667rem;
+  line-height: 1.8667rem;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.MobileAppForm__Tagline {
+  margin-right: 0;
+  margin-bottom: 15px;
+  margin-left: 0;
+  text-align: left;
+  margin: 0 auto 20px;
+  max-width: 300px;
+  color: #666;
+}
+
+.MobileAppForm__Buttons {
+    margin-bottom: 15px;
+    text-align: left;
+    max-width: 300px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MobileAppForm__Buttons__Button {
+    margin-right: 20px;
+    height: inherit;
+}
+
+.MobileAppForm__Buttons__Button__Image {
+    height: 100%;
+    display: block;
 }
