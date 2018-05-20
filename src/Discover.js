@@ -8,8 +8,8 @@ class Discover extends Component {
 render() {
   return (
     <div>
-    <div class="SiteSearchPanel">
-    <video class="Video" loop autoPlay>
+    <div className="SiteSearchPanel">
+    <video className="Video" loop autoPlay>
       <source src="https://gonation.com/videos/discover-now-2.mp4" type="video/mp4" />
     </video>
       <DiscoverBackground />
