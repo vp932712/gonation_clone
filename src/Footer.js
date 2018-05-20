@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Footer.css';
+import { SocialIcon } from 'react-social-icons';
 
 
 class Footer extends Component {
@@ -15,10 +16,10 @@ render() {
       </div>
       <div className="Icons__Div">
         <div className="Icons__Div"  >
-          <a className="Socialmedia__Icons"> F</a>
-          <a className="Socialmedia__Icons">G </a>
-          <a className="Socialmedia__Icons">L </a>
-          <a className="Socialmedia__Icons">M </a>
+          <a className="Socialmedia__Icons"> {<SocialIcon url="https://www.facebook.com/GoNation" />}</a>
+          <a className="Socialmedia__Icons">{<SocialIcon url="https://www.instagram.com/GoNation/" />}</a>
+          <a className="Socialmedia__Icons">{<SocialIcon url="https://twitter.com/gonation?lang=en" />} </a>
+          <a className="Socialmedia__Icons">{<SocialIcon url="support@gonation.com" />} </a>
          </div>
          <div className="Icons__Div" >
           <a className="Apple__Icon"></a>
