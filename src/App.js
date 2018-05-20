@@ -15,6 +15,7 @@ class App extends Component {
       <Discover />
       <WhoWeAre />
       <WorkWithUs />
+      <DownloadTheApp />
       <Footer />
       </div>
     );
