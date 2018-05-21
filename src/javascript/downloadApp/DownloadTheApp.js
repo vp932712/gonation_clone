@@ -9,7 +9,7 @@ class DownloadTheApp extends Component {
 render() {
   return (
     <div>
-    <div className="WhyOrderPanel">
+    <div className="Main__Us">
       <h2 className="Light">Every city is alive</h2>
       <div className="HomepageDivider"> </div>
       <TheApp />

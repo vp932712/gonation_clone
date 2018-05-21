@@ -8,7 +8,7 @@ class WorkWithUs extends Component {
 render() {
   return (
     <div>
-      <div className="WhyOrderPanel">
+      <div className="Main__Us">
         <h2 className="Light">Work with us </h2>
         <div className="HomepageDivider"> </div>
         <WorkWithUsReasons />
