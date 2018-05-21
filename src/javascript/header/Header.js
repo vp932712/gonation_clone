@@ -8,7 +8,7 @@ class Header extends Component {
     return (
       <div>
       <div className="Header">
-        <div className="Header__header--mode-page-reverse">
+        <div className="Header__header">
           <div className="Header__header__container">
             <div className="Header__header__container__block--right">
               <ul className="Header__header__links">
