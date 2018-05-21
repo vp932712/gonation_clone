@@ -195,12 +195,12 @@
 }
 
 
-.WhyOrderPanel__Reasons {
+.WhoWeAre__Reasons {
     display: flex;
     justify-content: space-around;
 }
 
-.WhyOrderPanel__Reasons__Reason__Discover {
+.WhoWeAre__Reasons__Reason__Discover {
     padding-left: 0;
     flex: 1 1 auto;
 
@@ -212,7 +212,7 @@
     position: relative;
 }
 
-.WhyOrderPanel__Reasons__Reason__Discover__ImageWrap {
+.WhoWeAre__Reasons__Reason__Discover__ImageWrap {
     height: 178px;
     width: 130px;
     margin: 0 auto;
@@ -231,7 +231,7 @@
     z-index: 1;
 }
 
-.WhyOrderPanel__Reasons__Reason__Headline {
+.WhoWeAre__Reasons__Reason__Headline {
 
     font-weight: 600;
     font-size: 1.0667rem;
