@@ -7,15 +7,15 @@ class DiscoverSearchBox extends Component {
 render() {
   return (
     <div>
-      <div className="SiteSearchPanel__SearchBlock">
+      <div className="Discover_Search_Box">
 
-        <div className="SiteSearchPanel__SearchBlock__Inner">
-          <div className="SiteSearchPanel__SearchBlock__OpacityCover"> </div>
-          <div className="SiteSearchPanel__SearchBlock__OpacityContainer">
-            <div className="SiteSearchPanel__SearchBlock__Inner__Logo icon-delivery-logo"> </div>
-            <h1 className="SiteSearchPanel__SearchBlock__Inner__Title">Life's too short to miss out.</h1>
+        <div className="Discover_Search_Box_Inner">
+          <div className="Discover_Search_Box_Opacity"> </div>
+          <div className="Discover_Search_Box_OpacityContainer">
+            <div className="Discover_Search_Box_Inner__Logo"> </div>
+            <h1 className="Discover_Search_Box_Inner_Title">Life's too short to miss out.</h1>
             <div>
-              <form className="SiteSearchPanel__SearchBlock__Inner__Autocomplete">
+              <form className="Discover_Search_Box_Inner_Autocomplete">
                 <div className="AddressAutocomplete">
                   <div className="AutocompleteInput">
                     <input className="AutocompleteInput__input" placeholder="What city would you like to experience?" />

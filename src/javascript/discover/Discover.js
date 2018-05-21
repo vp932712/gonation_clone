@@ -12,8 +12,8 @@ render() {
         <video className="Video" loop autoPlay>
           <source src="https://gonation.com/videos/discover-now-2.mp4" type="video/mp4" />
         </video>
-        <div className="SiteSearchPanel">
-       
+        <div className="Discover_Panel">
+
         <DiscoverSearchBox />
       </div>
 </div>

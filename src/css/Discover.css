@@ -1,4 +1,4 @@
-.SiteSearchPanel {
+.Discover_Panel {
     background-position: 50%;
     background-size: cover;
     height: 100vh;
@@ -26,7 +26,7 @@
     transition: opacity 1s;
 }
 
-.SiteSearchPanel__Background {
+/* .SiteSearchPanel__Background {
     background: linear-gradient(180deg,hsla(0,0%,100%,.7) 2%,hsla(0,0%,100%,0) 30%);
     position: absolute;
     top: 0;
@@ -34,20 +34,21 @@
     left: 0;
     right: 0;
     width: 100%;
-}
+} */
 
-.SiteSearchPanel__SearchBlock {
+.Discover_Search_Box {
     padding: 0 20px;
 }
 
-.SiteSearchPanel__SearchBlock__Inner {
+.Discover_Search_Box_Inner {
     box-sizing: border-box;
     width: 565px;
     position: relative;
     padding: 10px;
 }
 
-.SiteSearchPanel__SearchBlock__OpacityCover {
+
+.Discover_Search_Box_Opacity {
     background: #2e40431c;
     opacity: .8;
     position: absolute;
@@ -58,11 +59,13 @@
     width: 100%;
 }
 
-.SiteSearchPanel__SearchBlock__OpacityContainer {
+.Discover_Search_Box_OpacityContainer {
     position: relative;
     padding-bottom: 58px;
 }
-.SiteSearchPanel__SearchBlock__Inner__Logo {
+
+
+.Discover_Search_Box_Inner__Logo {
     margin: 0 auto 10px;
     padding-bottom: 5px;
     font-size: 0;
@@ -72,7 +75,8 @@
 }
 
 
-.SiteSearchPanel__SearchBlock__Inner__Title {
+
+.Discover_Search_Box_Inner_Title {
     color: #20bed6;
     font-size: 1.7333rem;
     line-height: 2.2667rem;
@@ -84,7 +88,7 @@
 }
 
 
-.SiteSearchPanel__SearchBlock__Inner__Autocomplete {
+.Discover_Search_Box_Inner_Autocomplete {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
