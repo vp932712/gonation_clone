@@ -20,18 +20,17 @@ render() {
           <a className="Socialmedia__Icons">{<SocialIcon url="https://www.instagram.com/GoNation/" />}</a>
           <a className="Socialmedia__Icons">{<SocialIcon url="https://twitter.com/gonation?lang=en" />} </a>
           <a className="Socialmedia__Icons">{<SocialIcon url="support@gonation.com" />} </a>
-         </div>
+        </div>
          <div className="Icons__Div" >
           <a className="Apple__Icon"></a>
           <a className="Google__Icon"></a>
-         </div>
-
+        </div>
       </div>
-      <p className="Site__Note__To__Viewers">Made with ❤️ by Vic Patel for Chaz</p>
+        <p className="Site__Note__To__Viewers">Made with ❤️ by Vic Patel for Chaz</p>
     </div>
-    )
+   );
   }
 }
 
 
-export default Footer
+export default Footer;
