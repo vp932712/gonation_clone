@@ -1,11 +1,11 @@
-.GetToKnowUsPanel__Blocks {
+.WorkWithUs {
   display: flex;
   flex-wrap: wrap;
   margin: 60px auto 0;
   max-width: 1020px;
 }
 
-.dcom__container {
+.First__Container {
   padding-left: 40px;
   padding-right: 40px;
   margin-left: auto;
@@ -15,7 +15,7 @@
   width: 100%;
 }
 
-.dcom__container__second {
+.Second__Container {
   padding-right: 10px;
   padding-left: 40px;
   margin-left: auto;
@@ -25,7 +25,7 @@
   width: 50%;
 }
 
-.dcom__container__third {
+.Third__Container {
   padding-right: 40px;
   padding-left: 10px;
   margin-left: auto;

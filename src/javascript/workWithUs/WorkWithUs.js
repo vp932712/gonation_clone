@@ -14,9 +14,8 @@ render() {
         <WorkWithUsReasons />
       </div>
     </div>
-  )
-}
-
+    )
+  }
 }
 
 

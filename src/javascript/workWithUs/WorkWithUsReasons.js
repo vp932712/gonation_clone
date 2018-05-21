@@ -6,9 +6,8 @@ class WorkWithUsReasons extends Component {
 
 render() {
   return (
-
-   <div className="GetToKnowUsPanel__Blocks">
-      <div className="dcom__container">
+   <div className="WorkWithUs">
+      <div className="First__Container">
         <div className="PanelBlock__First">
           <div className="PanelBlock__ImageWrap__First">
             <div className="PanelBlock__ImageWrap__Image__First">
@@ -24,10 +23,7 @@ render() {
         </div>
       </div>
 
-
-
-
-      <div className="dcom__container__second">
+      <div className="Second__Container">
         <div className="PanelBlock__Second">
           <div className="PanelBlock__ImageWrap__Second">
             <div className="PanelBlock__ImageWrap__Image__Second">
@@ -43,9 +39,7 @@ render() {
         </div>
       </div>
 
-
-
-      <div className="dcom__container__third">
+      <div className="Third__Container">
         <div className="PanelBlock__Second">
           <div className="PanelBlock__ImageWrap__Second">
             <div className="PanelBlock__ImageWrap__Image__Third">
@@ -60,16 +54,10 @@ render() {
           </div>
         </div>
       </div>
-
-
    </div>
-
-
-
-  )
-}
-
+   )
+  }
 }
 
 
-export default WorkWithUsReasons
+export default WorkWithUsReasons;

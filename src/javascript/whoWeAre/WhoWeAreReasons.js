@@ -6,7 +6,6 @@ class WhoWeAreReasons extends Component {
 
 render() {
   return (
-
       <div className="WhoWeArePanel">
         <div className="Bubbles__First">
           <span className="First__Bubble"> </span>
@@ -54,10 +53,8 @@ render() {
           </div>
         </div>
       </div>
-
-  )
-}
-
+    )
+  }
 }
 
 
