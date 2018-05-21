@@ -8,6 +8,7 @@ import DownloadTheApp from "./javascript/downloadApp/DownloadTheApp.js"
 import Footer from "./javascript/footer/Footer.js"
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
