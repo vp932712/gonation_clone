@@ -7,20 +7,17 @@ class Discover extends Component {
 
 render() {
   return (
-
     <div>
         <video className="Video" loop autoPlay>
           <source src="https://gonation.com/videos/discover-now-2.mp4" type="video/mp4" />
         </video>
         <div className="Discover_Panel">
-
         <DiscoverSearchBox />
       </div>
-</div>
-  )
+    </div>
+   );
+  }
 }
 
-}
 
-
-export default Discover
+export default Discover;

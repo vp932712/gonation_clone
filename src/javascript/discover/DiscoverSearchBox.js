@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
 import "../../css/Discover.css"
 
-
 class DiscoverSearchBox extends Component {
 
 render() {
   return (
     <div>
       <div className="Discover_Search_Box">
-
         <div className="Discover_Search_Box_Inner">
           <div className="Discover_Search_Box_Opacity"> </div>
           <div className="Discover_Search_Box_OpacityContainer">
@@ -32,10 +30,9 @@ render() {
         </div>
       </div>
     </div>
-  )
+  );
+ }
 }
 
-}
 
-
-export default DiscoverSearchBox
+export default DiscoverSearchBox;
