@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import '../../css/Footer.css';
 import { SocialIcon } from 'react-social-icons';
 
-
 class Footer extends Component {
 
 render() {

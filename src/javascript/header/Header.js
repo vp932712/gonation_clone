@@ -6,7 +6,7 @@ class Header extends Component {
 
   render() {
     return (
-      <div>
+     <div>
       <div className="Header">
         <div className="Header__header">
           <div className="Header__header__container">
@@ -23,10 +23,9 @@ class Header extends Component {
           </div>
         </div>
       </div>
-      </div>
-    )
+     </div>
+    );
   }
-
 }
 
 export default Header;
