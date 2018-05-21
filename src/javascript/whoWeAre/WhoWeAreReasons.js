@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import '../../css/WhoWeAre.css'
 
-
 class WhoWeAreReasons extends Component {
 
 render() {
@@ -53,9 +52,9 @@ render() {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
 
-export default WhoWeAreReasons
+export default WhoWeAreReasons;

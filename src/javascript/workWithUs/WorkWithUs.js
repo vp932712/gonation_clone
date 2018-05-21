@@ -14,9 +14,9 @@ render() {
         <WorkWithUsReasons />
       </div>
     </div>
-    )
+   );
   }
 }
 
 
-export default WorkWithUs
+export default WorkWithUs;

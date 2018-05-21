@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import "../../css/WhoWeAre.css"
 import WhoWeAreReasons from "./WhoWeAreReasons.js"
 
-
 class WhoWeAre extends Component {
 
 render() {
@@ -14,10 +13,9 @@ render() {
         <WhoWeAreReasons />
       </div>
     </div>
-  )
+   );
+ }
 }
 
-}
 
-
-export default WhoWeAre
+export default WhoWeAre;
