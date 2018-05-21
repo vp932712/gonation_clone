@@ -1,38 +1,33 @@
 .Header {
-    font-size: .9333rem;
-    color: #333;
+  font-size: .9333rem;
+  color: #333;
 }
 
-
-
 .Header__header {
-    color: #1f5ea9;
-    background: linear-gradient(180deg,hsla(0,0%,100%,.7) 0,hsla(0,0%,100%,0));
-    transition: height .3s;
-    border-bottom: none;
-    line-height: 3.6rem;
-    position: absolute;
-    width: 100%;
-    z-index: 1002;
+  color: #1f5ea9;
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, .7) 0, hsla(0, 0%, 100%, 0));
+  transition: height .3s;
+  border-bottom: none;
+  line-height: 3.6rem;
+  position: absolute;
+  width: 100%;
+  z-index: 1002;
 }
 
 .Header__header__container {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-
-
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
 
 .Header__header__container__block--right {
-    flex: 0 0 auto;
-    padding-right: 40px;
-    display: flex;
-    justify-content: flex-end;
-    max-height: 54px;
-    color: #1f5ea9;
+  flex: 0 0 auto;
+  padding-right: 40px;
+  display: flex;
+  justify-content: flex-end;
+  max-height: 54px;
+  color: #1f5ea9;
 }
-
 
 .Header__header__links {
   justify-content: flex-end;
@@ -41,30 +36,29 @@
   margin: 0;
   padding: 0;
   height: 54px;
-
 }
 
 .Header__header__links__link {
-    margin-right: 40px;
-    position: relative;
-    background: none;
-    white-space: nowrap;
-
+  margin-right: 40px;
+  position: relative;
+  background: none;
+  white-space: nowrap;
 }
 
 .Header__header__links__link__link {
-    display: inherit;
+  display: inherit;
 }
 
 .Header__header__border {
-    border-radius: 3px;
-    border: 1px solid;
-    line-height: 1;
-    padding: .5em 1.5em;
-    margin-top: 11px;
+  border-radius: 3px;
+  border: 1px solid;
+  line-height: 1;
+  padding: .5em 1.5em;
+  margin-top: 11px;
 }
+
 .Header__header__color--mode-page-reverse {
-    color: #20bed6;
+  color: #20bed6;
 }
 
 /* .GoNation__Icon {
